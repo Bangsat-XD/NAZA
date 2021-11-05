@@ -12,8 +12,9 @@
 
 ***pip install mechanize***
 
-***git clone https://github.com/Bangsat-XD/SADIS
-cd SADIS***
+***git clone https://github.com/Bangsat-XD/SADIS***
+
+***cd SADIS***
 
 ***python Garang.py***
 
