@@ -5,25 +5,12 @@ import requests
 import re
 
 logo = """ \033[1;91m                   
-                   `/ymMMMMMMMMmy/`
-               `/ymMMMMMMMMMMMMMMmy/`
-              /hMMMMMMMMMMMMMMMMMMMMMMh/
-            /mMMmNMMMMMNNNNNNNNMMMMMNNMMm/
-          `hNmo:dMMNNNmNNmNNmNNmNNNMMd:omNh`
-         .mh:+/hMNNNNmNNmNdhmmNNmNNNNMy/o:hm.
-        `d+://sNmMMMmMMMmdy+/mMMMmMMMmNs///+d`
-        ys.o/oMmNNNmNNMNNMmdMNNMNNmNNNmMo/o.ys
-       `my.-/NmMMMMmMMNmNNyyNNmNMMmMMMMmN/:`ym`
-       -h/+s/MmMMMNmNNNdym++mymNNNmNMMNmM:so/h-
-       -N.o.sMmMMMNh/:-`-MosM-`-:/hNMMMmMs.+.N-
-\033[1;97m       `ho/-ohmMMMM/    -M/+M.    /MMMMmho-/oh
-        s+-s-odmNNN`     /-:/     .NNNmd+:s-+s
-        `mo/-:+ymMm                mMms+:-/om`
-         .h/+/y`hhs                yyh`y/+/h.
-          `hd/::-+.                .+-::/dy`
-            /hs+/::.--          --.::/+sh:
-              :hds+/-`          `-/+sdh:
-                `/ymM+          oMmy:\033[1;97m
+          ░██████╗░█████╗░██████╗░██╗░██████╗
+          ██╔════╝██╔══██╗██╔══██╗██║██╔════╝
+\033[1;97m       ╚█████╗░███████║██║░░██║██║╚█████╗░
+          ░╚═══██╗██╔══██║██║░░██║██║░╚═══██╗
+          ██████╔╝██║░░██║██████╔╝██║██████╔╝
+          ╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝╚═════╝░\033[1;97m
          [\033[41;1m ☆ Raka ☆ ™︻®╤───────═◍➤ \033[00;1m]
 """
 os.system('clear')
