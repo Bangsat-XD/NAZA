@@ -340,7 +340,7 @@ def moch_yayan():
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
     elif yayan == "2" or yayan =="02":
-         os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
+         os.system("xdg-open https://youtube.com/shorts/P8PaAhoc8hM") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
