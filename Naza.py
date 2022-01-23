@@ -2,7 +2,7 @@
 #-*-coding:utf-8-*-
 # Angga
 
-import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
+import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 from random import randint
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import date
