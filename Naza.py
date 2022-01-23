@@ -1161,7 +1161,7 @@ class bapi:
             break
         except:
           continue
-        print(("\r\x1b[0;33m[\x1b[0;37mCrack\x1b[0;33m]\x1b[0;37m\x1b[0;31m[\x1b[0;37m%s/%s\x1b[0;31m]\x1b[0;32m[\x1b[0;37mOK:%s\x1b[0;32m]\x1b[0;33m[\x1b[0;37mCP:%s\x1b[0;33m]\x1b[0;37m"%(self.loop,len(self.fl),len(self.ok),len(self.cp))), end=' ');sys.stdout.flush()
+	print "\r\x1b[1;97m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
     else:
       self.loop += 1
       for pw in self.setpw:
@@ -1291,7 +1291,7 @@ class bapittl:
             break
         except:
           continue
-        print(("\r\x1b[0;33m[\x1b[0;37mCrack\x1b[0;33m]\x1b[0;37m\x1b[0;31m[\x1b[0;37m%s/%s\x1b[0;31m]\x1b[0;32m[\x1b[0;37mOK:%s\x1b[0;32m]\x1b[0;33m[\x1b[0;37mCP:%s\x1b[0;33m]\x1b[0;37m"%(self.loop,len(self.fl),len(self.ok),len(self.cp))), end=' ');sys.stdout.flush()
+	print "\r\x1b[1;97m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
     else:
       self.loop += 1
       for pw in self.setpw:
@@ -1302,7 +1302,7 @@ class bapittl:
             break
         except:
           continue
-	print("\r\x1b[0;33m[Crack]\x1b[0;37m%s/%s\x1b[0;37mOK:%s - CP:%s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)), end=' ');sys.stdout.flush()
+	print "\r\x1b[1;97m◍➤[CRACK] %s/%s \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 
 ### RESULT ###
 
