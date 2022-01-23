@@ -123,7 +123,7 @@ def country():
     
 def choose_country():
     cc = raw_input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
-    if cc = "":
+    if cc = " ":
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc = "1","01":
         os.system("rm -rf country.txt")
