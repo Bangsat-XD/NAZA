@@ -122,7 +122,7 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
+    cc = raw_input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -186,17 +186,17 @@ def logs():
   print((k+"\n["+p+"01"+k+"]"+p+" Login With Token"))
   print((k+"["+p+"02"+k+"]"+p+" Login With Cookies"))
   print((k+"["+p+"00"+k+"]"+p+" Log Out(Ahh Ngecrot)"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
-  if sek=="":
+  sek = raw_input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  if sek == "":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
-  elif sek=="1":
+  elif sek == "1":
     defaultua()
     log_token()
-  elif sek=="2":
+  elif sek == "2":
     defaultua()
     gen()
-  elif sek=="0":
+  elif sek == "0":
     exit()
   else:
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
@@ -205,7 +205,7 @@ def logs():
 def log_token():
     os.system("clear")
     banner()
-    toket = input(k+"\n["+p+"?"+k+"]"+p+" Token : ")
+    toket = raw_input(k+"\n["+p+"?"+k+"]"+p+" Token : ")
     try:
         otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
         a = json.loads(otw.text)
