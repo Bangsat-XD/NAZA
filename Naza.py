@@ -122,12 +122,12 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = raw_input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
-    if cc ="":
+    cc == raw_input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
+    if cc == "":
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
-    elif cc = "1","01":
+    elif cc == "1","01":
         os.system("rm -rf country.txt")
-        cou = "id"
+        cou == "id"
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
@@ -135,9 +135,9 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc = "2","02":
+    elif cc == "2","02":
         os.system("rm -rf country.txt")
-        cou = "bd"
+        cou == "bd"
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
@@ -145,9 +145,9 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc = "3","03":
+    elif cc == "3","03":
         os.system("rm -rf country.txt")
-        cou = "pk"
+        cou == "pk"
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
@@ -155,19 +155,19 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc = "4","04":
+    elif cc == "4","04":
         os.system("rm -rf country.txt")
-        cou = "us"
+        cou == "us"
         try:
-            ctry = open('country.txt','w')
+            ctry == open('country.txt','w')
             ctry.write(cou)
             ctry.close()
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc = "0","00":
+    elif cc == "0","00":
         os.system("rm -rf country.txt")
-        cou = " "
+        cou == "":
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
