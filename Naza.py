@@ -127,7 +127,7 @@ def choose_country():
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc == "1":
         os.system("rm -rf country.txt")
-        cou == "id"
+        cou = "id"
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
@@ -147,7 +147,7 @@ def choose_country():
             menu()
     elif cc == "3":
         os.system("rm -rf country.txt")
-        cou == "pk"
+        cou = "pk"
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
@@ -157,7 +157,7 @@ def choose_country():
             menu()
     elif cc == "4":
         os.system("rm -rf country.txt")
-        cou == "us"
+        cou = "us"
         try:
             ctry == open('country.txt','w')
             ctry.write(cou)
