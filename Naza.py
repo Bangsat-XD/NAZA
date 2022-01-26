@@ -125,7 +125,7 @@ def choose_country():
     cc == raw_input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
     if cc == "":
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
-    elif cc == "1","01":
+    elif cc == "1":
         os.system("rm -rf country.txt")
         cou == "id"
         try:
@@ -135,7 +135,7 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc == "2","02":
+    elif cc == "2":
         os.system("rm -rf country.txt")
         cou == "bd"
         try:
@@ -145,7 +145,7 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc == "3","03":
+    elif cc == "3":
         os.system("rm -rf country.txt")
         cou == "pk"
         try:
@@ -155,7 +155,7 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc == "4","04":
+    elif cc == "4":
         os.system("rm -rf country.txt")
         cou == "us"
         try:
