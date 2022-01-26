@@ -115,10 +115,10 @@ def country():
     os.system("clear")
     banner()
     print("\n%s[%s Please select a country %s]\n"%(k,p,k))
-    print("%s[%s01%s] %sIndonesia (Warga Bar-Bar)"%(k,p,k,p))
-    print("%s[%s02%s] %sIndian"%(k,p,k,p))
-    print("%s[%s03%s] %sPakistan"%(k,p,k,p))
-    print("%s[%s04%s] %sUSA (American)"%(k,p,k,p))
+    print("%s[%s1%s] %sIndonesia (Warga Bar-Bar)"%(k,p,k,p))
+    print("%s[%s2%s] %sIndian"%(k,p,k,p))
+    print("%s[%s3%s] %sPakistan"%(k,p,k,p))
+    print("%s[%s4%s] %sUSA (American)"%(k,p,k,p))
     choose_country()
     
 def choose_country():
@@ -165,7 +165,7 @@ def choose_country():
             menu()
         except (KeyError, IOError):
             menu()
-    elif cc == "0","00":
+    elif cc == "0":
         os.system("rm -rf country.txt")
         cou == "":
         try:
