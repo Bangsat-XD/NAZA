@@ -167,7 +167,7 @@ def choose_country():
             menu()
     elif cc == "0":
         os.system("rm -rf country.txt")
-        cou == "":
+        cou == " "
         try:
             ctry = open('country.txt','w')
             ctry.write(cou)
