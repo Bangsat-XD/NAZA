@@ -376,7 +376,7 @@ def pilihcrack(file):
 
 def publik():
 	try:
-		toket=open("login.txt","r").read()
+		toket = open("login.txt", "r").read()
 	except IOError:
 		print((k+"\n["+p+"!"+k+"]"+p+" Cookie/Token Invalid Kentod"))
 		os.system("rm -rf login.txt")
